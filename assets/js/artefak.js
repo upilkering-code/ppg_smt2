@@ -20,7 +20,7 @@
         { icon: "AR", title: "Artefak Pembelajaran", note: "Bukti hasil kerja murid, tracer sheet, rubrik partisipasi, atau dokumentasi kegiatan.", url: "https://drive.google.com/file/d/1f4JzVqvPFQIS3dFfB-pFx3h0s8vU3DL6/view?usp=drive_link", kind: "document" },
         { icon: "MA", title: "Modul Ajar", note: "Modul ajar yang digunakan pada pelaksanaan Siklus 1.", url: "", kind: "document" },
         { icon: "LK", title: "LKPD", note: "Lembar kerja dan kartu pembagian peran kelompok.", url: "", kind: "document" },
-        { icon: "VD", title: "Video Pembelajaran", note: "Rekaman atau cuplikan pelaksanaan tindakan di kelas.", url: "https://drive.google.com/file/d/14xWq_69HDUw2_Dul-SYC_dLqY4e2gUGy/view?usp=drive_link", kind: "video" },
+        { icon: "VD", title: "Video Pembelajaran", note: "Rekaman atau cuplikan pelaksanaan tindakan di kelas.", url: "", kind: "video" },
         { icon: "RF", title: "Refleksi Siklus 1", note: "Uraian capaian, kendala, respons murid, dan hasil pengamatan selama tindakan awal.", url: "", kind: "document" },
         { icon: "TL", title: "Rencana Tindak Lanjut", note: "Perbaikan yang akan diterapkan pada Siklus 2 berdasarkan hasil refleksi.", url: "", kind: "document" }
       ]
@@ -36,7 +36,7 @@
       items: [
         { icon: "AR", title: "Artefak Pembelajaran", note: "Bukti hasil kerja, rekap kontribusi, rubrik, dan dokumentasi Siklus 2.", url: "", kind: "document" },
         { icon: "MA", title: "Modul Ajar", note: "Modul ajar hasil revisi berdasarkan refleksi Siklus 1.", url: "", kind: "document" },
-        { icon: "LK", title: "LKPD", note: "LKPD revisi dengan petunjuk dan tanggung jawab peran yang lebih jelas.", url: "", kind: "document" },
+        { icon: "LK", title: "LKPD", note: "LKPD revisi dengan petunjuk dan tanggung jawab peran yang lebih jelas.", url: "https://drive.google.com/file/d/1W06lc-rwWV09ewB9vhthXmyQJbx3rAFh/view?usp=drive_link", kind: "document" },
         { icon: "VD", title: "Video Pembelajaran", note: "Rekaman pelaksanaan perbaikan tindakan pada Siklus 2.", url: "", kind: "video" },
         { icon: "RF", title: "Refleksi Siklus 2", note: "Analisis perubahan partisipasi, efektivitas scaffolding, dan kendala yang masih muncul.", url: "", kind: "document" },
         { icon: "TL", title: "Rencana Tindak Lanjut", note: "Rencana penguatan bukti kerja dan tanggung jawab individual pada Siklus 3.", url: "", kind: "document" }
@@ -53,8 +53,8 @@
       items: [
         { icon: "AR", title: "Artefak Pembelajaran", note: "Hasil tantangan, tracer sheet individu, rubrik partisipasi, dan dokumentasi.", url: "", kind: "document" },
         { icon: "MA", title: "Modul Ajar", note: "Modul ajar Siklus 3 dengan penguatan aktivitas kolaboratif.", url: "", kind: "document" },
-        { icon: "LK", title: "LKPD", note: "LKPD dengan tahapan kerja dan bukti kontribusi setiap anggota.", url: "", kind: "document" },
-        { icon: "VD", title: "Video Pembelajaran", note: "Rekaman pelaksanaan, interaksi kelompok, atau presentasi hasil.", url: "", kind: "video" },
+        { icon: "LK", title: "LKPD", note: "LKPD dengan tahapan kerja dan bukti kontribusi setiap anggota.", url: "https://drive.google.com/file/d/1MB5k8JVXJJRSEPTdCEZGRI8fSf6Z39r7/view?usp=drive_link", kind: "document" },
+        { icon: "VD", title: "Video Pembelajaran", note: "Rekaman pelaksanaan, interaksi kelompok, atau presentasi hasil.", url: "https://drive.google.com/file/d/14xWq_69HDUw2_Dul-SYC_dLqY4e2gUGy/view?usp=drive_link", kind: "video" },
         { icon: "RF", title: "Refleksi Siklus 3", note: "Analisis dampak tindakan terhadap pemerataan partisipasi dan kualitas kerja kelompok.", url: "", kind: "document" },
         { icon: "TL", title: "Rencana Tindak Lanjut", note: "Langkah konsolidasi, evaluasi akhir, dan strategi yang akan dipertahankan pada Siklus 4.", url: "", kind: "document" }
       ]
@@ -70,7 +70,7 @@
       items: [
         { icon: "AR", title: "Artefak Pembelajaran", note: "Rekap hasil akhir, perbandingan antar-siklus, dan dokumentasi praktik.", url: "", kind: "document" },
         { icon: "MA", title: "Modul Ajar", note: "Modul ajar final setelah seluruh perbaikan tindakan diterapkan.", url: "", kind: "document" },
-        { icon: "LK", title: "LKPD", note: "LKPD final yang telah disempurnakan berdasarkan hasil evaluasi.", url: "", kind: "document" },
+        { icon: "LK", title: "LKPD", note: "LKPD final yang telah disempurnakan berdasarkan hasil evaluasi.", url: "https://drive.google.com/file/d/1P5Sq3voASIYnot7aSjb5DL28sU-eYhcY/view?usp=drive_link", kind: "document" },
         { icon: "VD", title: "Video Pembelajaran", note: "Rekaman pelaksanaan Siklus 4 atau video rangkuman tindakan.", url: "", kind: "video" },
         { icon: "RF", title: "Refleksi Siklus 4", note: "Rangkuman perubahan, capaian, hambatan tersisa, dan pembelajaran yang diperoleh.", url: "", kind: "document" },
         { icon: "TL", title: "Rencana Tindak Lanjut", note: "Komitmen mempertahankan praktik efektif dan mengembangkannya pada pembelajaran berikutnya.", url: "", kind: "document" }

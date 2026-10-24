@@ -97,8 +97,10 @@ h3 { font-size: 1.2rem; margin-bottom: 10px; }
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid transparent;
-  transition: background .25s ease, border-color .25s ease, box-shadow .25s ease;
+  transition: transform .32s cubic-bezier(.2,.75,.25,1), background .25s ease, border-color .25s ease, box-shadow .25s ease;
+  will-change: transform;
 }
+.site-header.header-hidden { transform: translateY(calc(-100% - 12px)); }
 .site-header.scrolled {
   background: rgba(255, 255, 255, .88);
   border-color: rgba(220, 229, 239, .9);
@@ -657,3 +659,77 @@ h3 { font-size: 1.2rem; margin-bottom: 10px; }
 .attachment-preview span { font: 900 1.5rem RetroBit,Consolas,monospace; }.attachment-preview p { max-width: 320px; margin: 0; font-size: .8rem; }
 @media (max-width: 980px) { .philosophy-panel { grid-template-columns: auto 1fr; }.practice-proof { grid-column: 2; }.teacher-model-layout { grid-template-columns: .8fr 1.2fr; } }
 @media (max-width: 720px) { .purpose-layout, .cycle-story-grid, .teacher-model-layout, .philosophy-panel, .theory-practice { grid-template-columns: 1fr; }.practice-proof { grid-column: auto; }.teacher-emblem { max-width: 320px; width: 100%; margin-inline: auto; }.principle-number { width: 50px; height: 50px; } }
+
+.map-preview {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  overflow: hidden;
+  background: #dfc98e;
+  border: 4px solid var(--rpg-leather);
+  box-shadow:
+    6px 6px 0 var(--rpg-ink),
+    inset 0 0 0 2px var(--rpg-gold);
+}
+
+.map-preview iframe {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: 0;
+  filter: sepia(18%) saturate(85%) contrast(95%);
+}
+
+@media (max-width: 720px) {
+  .map-preview,
+  .map-preview iframe {
+    min-height: 260px;
+    height: 260px;
+  }
+}
+
+.profile-photo {
+  display: block;
+  width: 260px;
+  height: 260px;
+  margin-inline: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 6px solid var(--rpg-leather);
+  outline: 4px solid var(--rpg-gold);
+  outline-offset: 5px;
+  background: var(--rpg-parchment);
+  box-shadow:
+    9px 9px 0 var(--rpg-ink),
+    inset 0 0 0 3px var(--rpg-amber);
+}
+
+/* Ukuran foto pada HP */
+@media (max-width: 720px) {
+  .profile-photo {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+.profile-photo-frame {
+  width: clamp(170px, 30vw, 280px);
+  aspect-ratio: 1 / 1;
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 6px solid var(--rpg-leather);
+  outline: 4px solid var(--rpg-gold);
+  outline-offset: 5px;
+  background: var(--rpg-parchment);
+  box-shadow: 9px 9px 0 var(--rpg-ink);
+}
+
+.profile-photo-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

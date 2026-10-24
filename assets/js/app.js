@@ -35,13 +35,45 @@
 
   revealNewPage();
 
-  const setHeader = () => header?.classList.toggle("scrolled", window.scrollY > 12);
-  setHeader();
-  window.addEventListener("scroll", setHeader, { passive: true });
+  let lastScrollY = window.scrollY;
+  let headerTicking = false;
+
+  const updateHeader = () => {
+    if (!header) return;
+    const currentScrollY = Math.max(window.scrollY, 0);
+    const scrollDifference = currentScrollY - lastScrollY;
+
+    header.classList.toggle("scrolled", currentScrollY > 12);
+
+    if (currentScrollY <= 24) {
+      header.classList.remove("header-hidden");
+    } else if (scrollDifference > 5 && currentScrollY > 110) {
+      header.classList.add("header-hidden");
+      nav?.classList.remove("open");
+      menuButton?.setAttribute("aria-expanded", "false");
+    } else if (scrollDifference < -5) {
+      header.classList.remove("header-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+    headerTicking = false;
+  };
+
+  updateHeader();
+  window.addEventListener("scroll", () => {
+    if (headerTicking) return;
+    headerTicking = true;
+    window.requestAnimationFrame(updateHeader);
+  }, { passive: true });
 
   menuButton?.addEventListener("click", () => {
+    header?.classList.remove("header-hidden");
     const open = nav.classList.toggle("open");
     menuButton.setAttribute("aria-expanded", String(open));
+  });
+
+  header?.addEventListener("focusin", () => {
+    header.classList.remove("header-hidden");
   });
 
   document.addEventListener("click", (event) => {
