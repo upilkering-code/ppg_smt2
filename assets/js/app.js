@@ -6,6 +6,25 @@
   const nav = document.querySelector(".nav-links");
   const transition = document.querySelector(".page-transition");
 
+  // Keep the main navigation consistent, including on pages whose list is empty.
+  if (nav && !nav.children.length) {
+    const items = [
+      ["index.html", "Beranda"], ["profil.html", "Profil"],
+      ["artefak.html", "Artefak"], ["refleksi.html", "Refleksi"],
+      ["filosofi.html", "Filosofi"], ["model-guru.html", "Model Guru"],
+      ["analisis.html", "Analisis"], ["lampiran.html", "Lampiran"]
+    ];
+    const current = location.pathname.split("/").pop() || "index.html";
+    nav.innerHTML = items.map(([href, label]) =>
+      '<li><a' + (href === current ? ' class="active"' : '') + ' href="' + href + '">' + label + '</a></li>'
+    ).join("");
+  } else if (nav && !nav.querySelector('a[href="analisis.html"]')) {
+    const item = document.createElement("li");
+    item.innerHTML = '<a href="analisis.html">Analisis</a>';
+    const lampiranItem = nav.querySelector('a[href="lampiran.html"]')?.closest("li");
+    nav.insertBefore(item, lampiranItem || null);
+  }
+
   const buildPixelGrid = (container, columns = 10, rows = 7) => {
     if (!container || container.querySelector(".pixel")) return;
     const marker = container.querySelector(".transition-mark");
