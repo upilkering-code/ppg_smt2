@@ -59,7 +59,7 @@
       items: [
         { icon: "MA", title: "Modul Ajar", note: "Modul ajar final setelah seluruh perbaikan tindakan diterapkan.", url: "https://drive.google.com/file/d/1l6EU-WacexH9X6kOHOgaojNk7weqNd6R/view?usp=drive_link", kind: "document" },
         { icon: "LK", title: "LKPD", note: "LKPD final yang telah disempurnakan berdasarkan hasil evaluasi.", url: "https://drive.google.com/file/d/1P5Sq3voASIYnot7aSjb5DL28sU-eYhcY/view?usp=drive_link", kind: "document" },
-        { icon: "VD", title: "Video Pembelajaran", note: "Rekaman pelaksanaan Siklus 4 atau video rangkuman tindakan.", url: "", kind: "video" },
+        { icon: "VD", title: "Video Pembelajaran", note: "Rekaman pelaksanaan Siklus 4 atau video rangkuman tindakan.", url: "https://drive.google.com/file/d/1968KqL-v1QhznATLfnDswCP0mAvfDgwF/view?usp=drive_link", kind: "video" },
       ]
     }
   };
