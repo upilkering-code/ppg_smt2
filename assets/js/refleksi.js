@@ -42,7 +42,7 @@
       "id": "pb",
       "kode": "PB",
       "nama": "Pembelajaran Berdiferensiasi",
-      "tema": "Teknologi sebagai alat belajar bermakna",
+      "tema": "Setiap anak memiliki kemampuan yang beragam",
       "fourC": {
         "connection": "Mata kuliah Pembelajaran Berdiferensiasi melanjutkan pemahaman tentang keragaman peserta didik. Jika peserta didik memiliki kesiapan, minat, dan preferensi belajar yang berbeda, maka satu cara belajar yang sama belum tentu memberikan kesempatan yang setara. Saya memahami bahwa keadilan dalam pendidikan tidak selalu berarti memberikan perlakuan yang sama. Keadilan dapat berarti memberikan dukungan yang sesuai agar setiap peserta didik memiliki kesempatan mencapai tujuan pembelajaran. Materi Desain Universal untuk Pembelajaran memperkuat pemahaman tersebut. Pembelajaran perlu sejak awal dirancang agar dapat diakses oleh peserta didik dengan kebutuhan yang beragam. Pendidik tidak harus menunggu sampai muncul kesulitan, tetapi dapat mengantisipasi hambatan melalui rancangan yang fleksibel.",
         "challenge": "Tantangan pertama adalah membedakan diferensiasi dari variasi biasa. Menyediakan beberapa media atau memberikan tugas yang berbeda belum tentu disebut diferensiasi. Penyesuaian harus didasarkan pada kebutuhan yang teridentifikasi serta tetap mengarah pada tujuan yang sama. Tantangan kedua adalah mempertahankan kualitas tujuan pembelajaran. Diferensiasi tidak berarti menurunkan tujuan untuk kelompok tertentu. Pendidik perlu menentukan kompetensi inti yang harus dicapai dan bagian pembelajaran yang dapat dibuat fleksibel. Tantangan lainnya adalah mencegah pelabelan. Pengelompokan berdasarkan kesiapan dapat membantu pemberian dukungan, tetapi juga dapat menimbulkan anggapan tentang kelompok pintar dan kurang pintar. Karena itu, pengelompokan harus bersifat fleksibel, sementara, dan dapat berubah berdasarkan perkembangan. Saya juga menemukan miskonsepsi bahwa diferensiasi mengharuskan guru membuat satu pembelajaran khusus untuk setiap peserta didik. Diferensiasi dapat dilakukan dengan mengenali pola kebutuhan dan menyediakan beberapa jalur belajar yang terencana.",
@@ -255,12 +255,12 @@ Saya juga akan aktif belajar melalui MGMP dan diskusi sejawat, meminta masukan, 
     pma: "https://drive.google.com/file/d/1eaA0hSIAzHRA55Z4oBDHhSs0smbicPd4/view?usp=drive_link",
     ppb: "https://drive.google.com/file/d/1ovOAMS09BWIiKImriOxDDofTToWpPIXa/view?usp=drive_link",
     ppl1: "https://drive.google.com/file/d/1mKlqA8C4rPK7fKKbDxeg7yDbzAxcfQga/view?usp=drive_link",
-    pse: "",
-    pmal: "",
-    pk: "",
-    ppl2: "",
-    seminar: "",
-    cpd: ""
+    pse: "https://drive.google.com/file/d/13xlOfMHN-85Zy2qNhQnMvaxfgyWdJp8l/view?usp=drive_link",
+    pmal: "https://drive.google.com/file/d/1bqjitxrq1qj_PC4FETPRrp2kHEnSHM57/view?usp=drive_link",
+    pk: "https://drive.google.com/file/d/1fu8imVyUY6LJE9YEkCNkizSUQ0S76fhc/view?usp=drive_link",
+    ppl2: "https://drive.google.com/file/d/1vVvqtp3uzNkMLtKGl7YXBghZmp9s0vQZ/view?usp=drive_link",
+    seminar: "https://drive.google.com/file/d/196wi4OkOw7ZqtrmSLDfcm1mT8pv3DsHD/view?usp=drive_link",
+    cpd: "https://drive.google.com/file/d/1b57shDh_uCjJcbRS9x_URtoFr8pXbkOI/view?usp=drive_link"
   };
   const board = document.querySelector("#questBoard");
   const content = document.querySelector("#reflectionContent");
